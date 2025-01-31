@@ -4,28 +4,41 @@
 
 body {
     font-family: Arial, sans-serif;
-    color: #999; /* Poor contrast */
-    background-color: #ccc;
+    color: #e7e6e6; /* Made lighter for more contrast */
+    background-color: #5a5959; /* made darker for more contrast with text */
 	border: solid 5px;
 	margin: 100px;
 }
 
 header {
 	text-align: center;
-	background-color: #333;
+	background-color: #333; 
 	color: white;
 	padding: 10px 0;
 }
 h1 {
-    font-size: 1em; /* Small font size for headings */
+    font-size: 36; /* Increased font-size for better legitibility */
+    text-align: center; 
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    margin: 20px;
+}
+
+p {
+    text-align: center;
 }
 
 a {
-    color: #999; /* Poor link contrast */
+    color: #ce8921; /* Changed to orange for better contrast */
 }
 
 a:hover {
-    color: #ccc; /* Even lower contrast on hover */
+    color: #f9d937; /* Changed to yellow to highlight hovering*/
 }
 
 form {
@@ -40,7 +53,7 @@ input[type="submit"] {
 
 button {
     cursor: pointer;
-    font-size: 0.8em; /* Small font size */
+    font-size: 1.2em; /* Increased font-size for better ligibility */
 }
 
 /* Missing focus styles for interactive elements */
